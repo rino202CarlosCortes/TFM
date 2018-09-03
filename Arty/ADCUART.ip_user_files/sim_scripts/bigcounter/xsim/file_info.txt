@@ -1,0 +1,1 @@
+bigcounter.vhd,vhdl,xil_defaultlib,../../../../ADCUART.srcs/sources_1/ip/bigcounter/sim/bigcounter.vhd,
