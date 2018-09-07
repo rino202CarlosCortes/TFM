@@ -36,15 +36,15 @@ void setup()
      .setRange(0,999)
      ;
        cp5.addSlider("kHz")
-     .setPosition(100,200)
+     .setPosition(100,150)
      .setRange(0,999)
      ;
        cp5.addSlider("MHz")
-     .setPosition(100,350)
+     .setPosition(100,250)
      .setRange(0,5)
      ;
        cp5.addButton("OK")
-     .setPosition(100,140)
+     .setPosition(100,350)
      .setSize(200,19)
      .setValue(0)
      ;
@@ -52,7 +52,7 @@ void setup()
 }
 
 void draw() {
-  image(img, width/2, 0,width*2/3,height*2/3);
+  image(img, width/2, 0,width/3,height/3);
   if(envio == 1){
     envio = 0;
     trama = "H" + str(Hz) + "K" +str(kHz) + "M" + str(MHz)+ "\n";
